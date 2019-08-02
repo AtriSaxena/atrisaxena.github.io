@@ -46,11 +46,11 @@ comments:
     issue_term           : # "pathname" (default)
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 :  "master"
+  branch                 : # "master"
   commitMessage          : "New comment by {fields.name}"
   filename               : comment-{@timestamp}
   format                 : "yml"
-  moderation             : false
+  moderation             : #false
   path                   : "/_data/comments/{options.slug}" (default)
   requiredFields         : ['name', 'email', 'message']
   transforms:
