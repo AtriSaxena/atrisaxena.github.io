@@ -33,25 +33,25 @@ words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            :  "atrisaxena-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "atrisaxena-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : #5 (default)
+    num_posts            : 10 #5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
     theme                : #"github-light" #(default), "github-dark"
     issue_term           : # "pathname" (default)
 staticman:
-  allowedFields          : ['name', 'email', 'message']
+  allowedFields          : ['name', 'email','url', 'message']
   branch                 : "master"
   commitMessage          : "New comment by {fields.name}"
   filename               : comment-{@timestamp}
   format                 : "yml"
   moderation             : false
-  path                   : "/_data/comments/{options.slug}" (default)
+  path                   : "/_data/comments/{options.slug}" #(default)
   requiredFields         : ['name', 'email', 'message']
   transforms:
     email                : "md5"
