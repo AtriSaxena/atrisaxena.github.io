@@ -17,8 +17,8 @@ posts:
         - title: "■ Introduction to Python"
           url: /tutorial/Introduction-to-python/
           
-        - title:"■ Python Print functions & Strings"
-           url: /tutorial/print-functions-and-strings/
+        - title: "■ Python Print functions & Strings"
+          url: /tutorial/print-functions-and-strings/
            
-         - title: "■ Python List & Loops"
-           url: /tutorial/python-list-and-loops/
+        - title: "■ Python List & Loops"
+          url: /tutorial/python-list-and-loops/
