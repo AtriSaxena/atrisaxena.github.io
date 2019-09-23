@@ -27,10 +27,8 @@ Our Target is to make a python program to use Twilio API and send a SMS to a pho
     - Get Auth Token
 
 4. Get Phone Number:
-
-  - Your Twilio Phone number is [here](https://www.twilio.com/console/phone-numbers/incoming)
-
-  - Verified Cell Phone Number You Want To Text by clicking [here](https://www.twilio.com/console/phone-numbers/verified)
+    - Your Twilio Phone number is [here](https://www.twilio.com/console/phone-numbers/incoming)
+    - Verified Cell Phone Number You Want To Text by clicking [here](https://www.twilio.com/console/phone-numbers/verified)
 
 5. Put your twilio credentials and twilio phone numbers in ‘credentials.py’
 
