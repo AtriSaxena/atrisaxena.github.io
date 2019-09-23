@@ -32,15 +32,7 @@ Our Target is to make a python program to use Twilio API and send a SMS to a pho
 
 5. Put your twilio credentials and twilio phone numbers in ‘credentials.py’
 
-{% highlight python %}
-account_sid = "Your Account Sid"
-auth_token = "Your Auth Token"
-my_cell = "+Your Cell Number"
-my_twilio = "+Your Twilio Number"
-
-
-{% endhighlight %}
-
+<script src="https://gist.github.com/AtriSaxena/2ce7e5fec837bb87bcb9af83b2c662c5.js"></script>
 
 6. Clone the code from my [GitHub Repository](https://github.com/CoderAtri/Twilio_Sms_Python_App).
 
