@@ -30,30 +30,17 @@ Our Target is to make a python program to use Twilio API and send a SMS to a pho
     - Your Twilio Phone number is [here](https://www.twilio.com/console/phone-numbers/incoming)
     - Verified Cell Phone Number You Want To Text by clicking [here](https://www.twilio.com/console/phone-numbers/verified)
 
-5. Put your twilio credentials and twilio phone numbers in ‘credentials.py’
-
+5. Put your twilio credentials and twilio phone numbers in ‘credentials.py’.
 <script src="https://gist.github.com/AtriSaxena/2ce7e5fec837bb87bcb9af83b2c662c5.js"></script>
-
 6. Clone the code from my [GitHub Repository](https://github.com/CoderAtri/Twilio_Sms_Python_App).
 
 7. Open the terminal and install twilio python package:
 
-{% highlight python %}
-pip install twilio
-
-{% endhighlight %}
+<script src="https://gist.github.com/AtriSaxena/11a6138135595cf07456905c2b34811d.js"></script>
 
 8. Create ‘send_sms.py’ & Run.
 
-{% highlight python %}
-from twilio.rest import Client
-from credentials import account_sid, auth_token, my_cell, my_twilio
- 
-client=Client(account_sid,auth_token)
-my_msg= "Here goes your message...." #Write your message
-message=client.messages.create(to=my_cell, from_ = my_twilio, body=my_msg)
-
-{% endhighlight %}
+<script src="https://gist.github.com/AtriSaxena/c84dfddc930fbf416ee4d25950c8d66a.js"></script>
 
 You just sent your first text through your Python Text App that uses the Twilio API. 
 
