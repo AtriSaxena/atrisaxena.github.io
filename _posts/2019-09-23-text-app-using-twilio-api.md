@@ -35,9 +35,7 @@ Our Target is to make a python program to use Twilio API and send a SMS to a pho
 6. Clone the code from my [GitHub Repository](https://github.com/CoderAtri/Twilio_Sms_Python_App).
 
 7. Open the terminal and install twilio python package:
-
 <script src="https://gist.github.com/AtriSaxena/11a6138135595cf07456905c2b34811d.js"></script>
-
 8. Create ‘send_sms.py’ & Run.
 
 <script src="https://gist.github.com/AtriSaxena/c84dfddc930fbf416ee4d25950c8d66a.js"></script>
