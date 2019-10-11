@@ -7,6 +7,8 @@ tags:
   - python
   - programming
   - learning
+author:
+  - Atri Saxena
 ---
 
 ![](https://www.fullstackpython.com/img/160511-send-sms-python/header.jpg)
