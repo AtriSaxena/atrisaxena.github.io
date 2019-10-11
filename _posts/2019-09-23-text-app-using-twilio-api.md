@@ -8,7 +8,7 @@ tags:
   - programming
   - learning
 author:
-  - Atri Saxena
+  - ATRI SAXENA
 ---
 
 ![](https://www.fullstackpython.com/img/160511-send-sms-python/header.jpg)
