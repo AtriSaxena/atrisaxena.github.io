@@ -82,7 +82,7 @@ sudo apt-get install docker.io
 
 {% endhighlight %}
 
-1. **Verify the installation**
+3. **Verify the installation**
 
 
 {% highlight python %}
@@ -91,13 +91,13 @@ sudo docker run hello-world
 {% endhighlight %}
 
 If you see an output that looks like the message below, you are all set.
-
 ```
 Hello from Docker!
-This message shows that your installation appears to be working correctly. To generate this message, Docker took the following steps: 1. The Docker client contacted the Docker daemon. 2. The Docker daemon pulled the "hello-world" image from the Docker Hub. (amd64) 3. The Docker daemon created a new container from that image which runs the    executable that produces the output you are currently reading. 4. The Docker daemon streamed that output to the Docker client, which sent it    to your terminal.
 ```
+This message shows that your installation appears to be working correctly. To generate this message, Docker took the following steps: 1. The Docker client contacted the Docker daemon. 2. The Docker daemon pulled the "hello-world" image from the Docker Hub. (amd64) 3. The Docker daemon created a new container from that image which runs the    executable that produces the output you are currently reading. 4. The Docker daemon streamed that output to the Docker client, which sent it    to your terminal.
 
-1. **Create our Pytorch Object Detection Model**
+
+4. **Create our Pytorch Object Detection Model**
 
 So, I choose to create an pytorch object detection model which will detect object in the image. We are going to use SSD (Single Shot Multibox Detection) Model which is trained on VOC 2007 & VOC 2012 data. For this, we will use [repository](https://github.com/amdegroot/ssd.pytorch) by [amdegroot](https://github.com/amdegroot). 
 
@@ -148,7 +148,7 @@ wget https://s3.amazonaws.com/amdegroot-models/ssd300_mAP_77.43_v2.pth
 {% endhighlight %}
 
 
-## 5. Create a requirement.txt file
+5. Create a requirement.txt file
 
 Let's get back to our target. As we are going to run this code in docker container therefore we need to create a requirement.txt file. This file contain the few packages which need to be installed in docker container e.g., numpy, flask etc.
 
@@ -164,7 +164,7 @@ pillow
 
 {% endhighlight %}
 
-## 6. Create a Dockerfile
+6. Create a Dockerfile
 
 Great let's create our Dockerfile. This file Docker will read to build and run our Project. 
 
@@ -176,7 +176,7 @@ Here's what is going on. In Dockerfile, we are instructing to download a base im
 
 Than we are copying `requirement.txt` file and run it to install required packages. After that we then tell Docker to run our scipt via `python app.py`.
 
-## 7. Build Docker Container
+7. Build Docker Container
 
 Now its the time to build and test our app. 
 
@@ -192,7 +192,7 @@ This will instruct the docker to build a container for the code located in our c
 
 This whole operation will take few minutes for extracting the docker image and installing packages in listed in `requirement.txt`.
 
-## 8. Run the Docker Container
+8. Run the Docker Container
 
 Now let's run our docker container and test our object detection app.
 {% highlight python %}
@@ -210,7 +210,7 @@ CONTAINER ID    IMAGE    COMMAND     CREATED    STATUS     PORTS        NAMES
 d82f65802166    ssd-detection-app   "python app.py"  About an hour ago  Up About an hour          0.0.0.0:5000->5000/tcp   nervous_northcutt
 ```
 
-## 9. Test our model
+9. Test our model
 
 Now, our model is running, now we can test it by sending the request. We can send the dog image and model will return the json output of bounding box with label and probability. I have used this image below:
 
