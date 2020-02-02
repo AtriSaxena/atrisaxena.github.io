@@ -84,7 +84,6 @@ sudo apt-get install docker.io
 
 3. **Verify the installation**
 
-
 {% highlight python %}
 sudo docker run hello-world
 
@@ -95,10 +94,10 @@ If you see an output that looks like the message below, you are all set.
 Hello from Docker!
 ```
 This message shows that your installation appears to be working correctly. To generate this message, Docker took the following steps: 
-a. The Docker client contacted the Docker daemon. 
-b. The Docker daemon pulled the "hello-world" image from the Docker Hub. (amd64) 
-c. The Docker daemon created a new container from that image which runs the    executable that produces the output you are currently reading. 
-d. The Docker daemon streamed that output to the Docker client, which sent it    to your terminal.
+- The Docker client contacted the Docker daemon. 
+- The Docker daemon pulled the "hello-world" image from the Docker Hub. (amd64) 
+- The Docker daemon created a new container from that image which runs the    executable that produces the output you are       currently reading. 
+- The Docker daemon streamed that output to the Docker client, which sent it    to your terminal.
 
 
 4. **Create our Pytorch Object Detection Model**
