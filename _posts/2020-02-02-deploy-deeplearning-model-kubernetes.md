@@ -62,7 +62,7 @@ Now, let's SSH into our VM and start building our model. The easiest way to do t
 
 To install Nvidia-Docker which use Nvidia GPU, you can take help from [this article](https://chunml.github.io/ChunML.github.io/project/Installing-NVIDIA-Docker-On-Ubuntu-16.04/). To install docker without GPU can use below scripts:
 
-1. **Remove the existing version of Docker**
+**1. Remove the existing version of Docker**
 
 Firstly we need to remove the existing version of docker.
 
@@ -73,7 +73,7 @@ sudo apt-get remove docker docker-engine docker.io
 
 If docker is not installed on your machine, then apt-get will tell you that. It is totally fine.
 
-2. **Installing Docker**
+**2. Installing Docker**
 
 {% highlight python %}
 
@@ -82,7 +82,7 @@ sudo apt-get install docker.io
 
 {% endhighlight %}
 
-3. **Verify the installation**
+**3. Verify the installation**
 
 {% highlight python %}
 sudo docker run hello-world
@@ -100,7 +100,7 @@ This message shows that your installation appears to be working correctly. To ge
 - The Docker daemon streamed that output to the Docker client, which sent it    to your terminal.
 
 
-4. **Create our Pytorch Object Detection Model**
+**4. Create our Pytorch Object Detection Model**
 
 So, I choose to create an pytorch object detection model which will detect object in the image. We are going to use SSD (Single Shot Multibox Detection) Model which is trained on VOC 2007 & VOC 2012 data. For this, we will use [repository](https://github.com/amdegroot/ssd.pytorch) by [amdegroot](https://github.com/amdegroot). 
 
@@ -152,7 +152,7 @@ wget https://s3.amazonaws.com/amdegroot-models/ssd300_mAP_77.43_v2.pth
 {% endhighlight %}
 
 
-5. Create a requirement.txt file
+**5. Create a requirement.txt file**
 
 Let's get back to our target. As we are going to run this code in docker container therefore we need to create a requirement.txt file. This file contain the few packages which need to be installed in docker container e.g., numpy, flask etc.
 
@@ -168,7 +168,7 @@ pillow
 
 {% endhighlight %}
 
-6. Create a Dockerfile
+**6. Create a Dockerfile**
 
 Great let's create our Dockerfile. This file Docker will read to build and run our Project. 
 
@@ -180,7 +180,7 @@ Here's what is going on. In Dockerfile, we are instructing to download a base im
 
 Than we are copying `requirement.txt` file and run it to install required packages. After that we then tell Docker to run our scipt via `python app.py`.
 
-7. Build Docker Container
+**7. Build Docker Container**
 
 Now its the time to build and test our app. 
 
@@ -196,7 +196,7 @@ This will instruct the docker to build a container for the code located in our c
 
 This whole operation will take few minutes for extracting the docker image and installing packages in listed in `requirement.txt`.
 
-8. Run the Docker Container
+**8. Run the Docker Container**
 
 Now let's run our docker container and test our object detection app.
 {% highlight python %}
@@ -214,7 +214,7 @@ CONTAINER ID    IMAGE    COMMAND     CREATED    STATUS     PORTS        NAMES
 d82f65802166    ssd-detection-app   "python app.py"  About an hour ago  Up About an hour          0.0.0.0:5000->5000/tcp   nervous_northcutt
 ```
 
-9. Test our model
+**9. Test our model**
 
 Now, our model is running, now we can test it by sending the request. We can send the dog image and model will return the json output of bounding box with label and probability. I have used this image below:
 
@@ -241,11 +241,11 @@ Now, we can deploy our docker container to the kubernetes Engine. Kubernetes eng
 
 This part is easy:
 
-1. Create a docker hub account if you don't have. 
+**1. Create a docker hub account if you don't have.**
 
 The first thing we need to do is upload our docker image to [Docker Hub](https://hub.docker.com/). Now, we can tell kubernetes cluster to take docker image from docker hub.
 
-2. Login to your docker hub account
+**2. Login to your docker hub account**
 
 Once you have created the docker hub account, login via the command line via ``sudo docker login``. You'll need to supply your username & password as you are logging into website. 
 
@@ -257,7 +257,7 @@ Login Succeeded
 
 Great, Let's move on to the next step.
 
-3. Tag your Docker Image
+**3. Tag your Docker Image**
 
 We need to tag our docker Image before we can upload it. Think of this step as giving our container a name.
 
@@ -278,7 +278,7 @@ sudo docker tag <your image id> <your docker hub id>/<app name>
 sudo docker tag ddb507b8a017 atrisaxena/ssd-detection-app
 ```
 
-4. Push the Image to docker Hub.
+**4. Push the Image to docker Hub.**
 
 Now, we can push our container to the Docker Hub. From the shell run:
 
@@ -293,7 +293,7 @@ sudo docker push atrisaxena/ssd-detection-app
 Now, if you back and check your Docker Container Image in your Docker Hub website.
 Get ready for the final step. 
 
-5. Create a Kubernetes Cluster
+**5. Create a Kubernetes Cluster**
 
 From the Google Cloud console, select Kubernetes Engine
 
