@@ -341,6 +341,7 @@ As you can see below, the API correctly returns the results
 
 
 ```
+{"predictions":[{"coords":"((1606.8755, 432.14508), 2049.419921875, 2592.420166015625)","label":"dog","probability":0.9924873113632202}],"success":true}
 
 ```
 
