@@ -115,11 +115,12 @@ So, let's get things working.
 First, let's create a new directory called `ssd-detection-app` and move into this directory
 
 {% highlight python %}
-mkdir object-detection-app
-cd object-detection-app
+mkdir ssd-detection-app
+cd ssd-detection-app
 {% endhighlight %}
 
-Now let's clone the amdegroot repository of SSD object detection model. 
+Now let's clone the amdegroot repository of SSD 
+detection model. 
 
 {% highlight python %}
 
@@ -331,11 +332,11 @@ Few more steps to go. Now, we can determine status of our deployment by running.
 
 ```
 NAME                   TYPE           CLUSTER-IP     EXTERNAL-IP     PORT(S)        AGE
-object-detection-app   LoadBalancer   10.11.250.71   35.225.226.94   80:30271/TCP   4m
+ssd-detection-app   LoadBalancer   10.11.250.71   35.225.226.94   80:30271/TCP   4m
 kubernetes   ClusterIP      10.11.240.1    <none>          443/TCP        18m
 ```
 
-Grab the "EXTERNAL-IP" for your object-detection-app, on this IP you can send request to your model. It's time to call API, run following command in you local terminal(make sure dog.jpg image is there):
+Grab the "EXTERNAL-IP" for your ssd-detection-app, on this IP you can send request to your model. It's time to call API, run following command in you local terminal(make sure dog.jpg image is there):
 
 ```
 curl -X POST -F image=@dog.jpg 'http://<your service IP>/predict'
