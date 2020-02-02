@@ -20,7 +20,7 @@ For anyone who doesn't know about docker and kubernetes need not to worry about.
 In this post, I am using Google Cloud from start to end. You can get free credit on signup to Google Cloud. So, you can also follow my steps easily and run everything with exact specifications. 
 Let's go to it.
 
-Note: If you get some error you can visit code from my github repository [ssd-object-detection]() or you can directly use my [docker image](https://hub.docker.com/r/atrisaxena/ssd-detection-app) and jump to deploying docker image to kubernetes.
+Note: If you get some error you can visit code from my github repository [ssd-object-detection](https://github.com/AtriSaxena/ssd-detection-app) or you can directly use my [docker image](https://hub.docker.com/r/atrisaxena/ssd-detection-app) and jump to deploying docker image to kubernetes.
 
 # **Quick Outline**
 
