@@ -204,8 +204,8 @@ sudo docker run -d -p 5000:5000 ssd-detection-app
 A quick note about the ports numbers, 5000:5000 tells the docker to make port no 5000 externally available and to forward our local app to the port which is also running on port no 5000.
 
 Now, you check the status of your docker container by ``sudo docker ps -a``. You should something like below. 
-
-```[dockercompute@instance-3 ~]$ sudo docker ps -a
+```
+[dockercompute@instance-3 ~]$ sudo docker ps -a
 CONTAINER ID    IMAGE    COMMAND     CREATED    STATUS     PORTS        NAMES
 d82f65802166    ssd-detection-app   "python app.py"  About an hour ago  Up About an hour          0.0.0.0:5000->5000/tcp   nervous_northcutt
 ```
