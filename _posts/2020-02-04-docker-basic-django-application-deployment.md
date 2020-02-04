@@ -22,9 +22,6 @@ I think it's important to understand some of the basics of docker. So, you can k
 
 ## What is Docker?
 
-
-
-
 Docker is software developed by Docker Inc. It was presented to the general public on 13 March, 2013, since than it has got many improvements and expanding into IT Industry. 
 
 Docker solved the problem into the IT industry, which was dependency and compilation problem since docker created independent and isolated environments. These environments are called "Containers".
@@ -39,7 +36,7 @@ Let's understand the difference closely.
 
 Virtual Machines are the emulation of the real computer which execute programs like a real computer. VMs shared the hardware resource of the computer using a "hypervisor".
 
-Wait...What are hypervisor? 🤔
+**Wait...What are hypervisor?** 🤔
 
 A hypervisor is a computer software, firmware or hardware that creates and runs virtual machines. A hypervisor is sometimes also called a virtual machine manager(VMM). The hypervisor runs on the physical machine called as "host machines". This host machine shares the Hardware resources such as RAM and CPU. And the VM which is running on the host machine is often called as "guest machine". This guest consists of both the application and whatever it needs to run such as system binaries and libraries. These guest machine also has the hardware stack, virtualized network adapters, storage and CPU.
 
