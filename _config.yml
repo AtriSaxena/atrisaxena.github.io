@@ -227,7 +227,7 @@ timezone: Asia/Kolkata # https://en.wikipedia.org/wiki/List_of_tz_database_time_
 
 
 # Plugins (previously gems:)
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
