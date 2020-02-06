@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://atrisaxena.github.io/</loc>
+  <lastmod>2020-02-06T06:31:02+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://atrisaxena.github.io/about/</loc>
+  <lastmod>2020-02-06T06:31:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atrisaxena.github.io/terms/</loc>
+  <lastmod>2020-02-06T06:31:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atrisaxena.github.io/tutorial/Introduction-to-python/</loc>
+  <lastmod>2020-02-06T06:31:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atrisaxena.github.io/tutorial/print-functions-and-strings/</loc>
+  <lastmod>2020-02-06T06:31:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atrisaxena.github.io/tutorial/python-list-and-loops/</loc>
+  <lastmod>2020-02-06T06:31:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atrisaxena.github.io/projects/docker-basic-django-application-deployment/</loc>
+  <lastmod>2020-02-06T06:31:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atrisaxena.github.io/projects/deploy-deeplearning-model-kubernetes/</loc>
+  <lastmod>2020-02-06T06:31:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atrisaxena.github.io/projects/text-app-using-twilio-api/</loc>
+  <lastmod>2020-02-06T06:31:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atrisaxena.github.io/tutorial/python-dictionaries/</loc>
+  <lastmod>2020-02-06T06:31:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atrisaxena.github.io/python-conditional-statement/</loc>
+  <lastmod>2020-02-06T06:31:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atrisaxena.github.io/page2/</loc>
+  <lastmod>2020-02-06T06:31:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atrisaxena.github.io/tutorial/files-in-python/</loc>
+  <lastmod>2020-02-06T06:31:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
