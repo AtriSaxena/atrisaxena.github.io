@@ -8,7 +8,7 @@ tags:
   - pytorch
   - deep-learning
 ---
-
+![](https://hackernoon.com/hn-images/0*VW4luAF5NCxhOykO.gif)
 
 
 ## Linear-Regression
