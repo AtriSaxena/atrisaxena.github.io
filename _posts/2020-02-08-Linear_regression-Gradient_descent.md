@@ -49,7 +49,7 @@ $$
 (\frac{\partial f}{\partial x},\ \frac{\partial f}{\partial y})
 $$
 
-The following image is the gradient of $f(x) = x^2$ at x=1
+The following image is the gradient of $$f(x) = x^2$$ at x=1
 
 ![](https://ws3.sinaimg.cn/large/006tNc79ly1fmarbuh2j3j30ba0b80sy.jpg)
 
