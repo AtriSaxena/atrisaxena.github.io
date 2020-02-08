@@ -21,9 +21,9 @@ Simple linear regression is useful for finding relationship between two continuo
 
 <b>The core idea is to obtain a line that best fits the data. The best fit line is the one for which total prediction error (all data points) are as small as possible. Error is the distance between the point to the regression line.<b>
 
-$
+$$
 \hat{y}_i = w x_i + b
-$
+$$
 
 The values w and b must be chosen so that they minimize the error. If sum of squared error is taken as a metric to evaluate the model, then goal to obtain a line that best reduces the error.
 
