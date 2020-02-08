@@ -57,6 +57,8 @@ What is the meaning of the gradient? In a geometric sense, the gradient value of
 
 ### Gradient Descent
 
+![](https://pics.me.me/thumb_left-exit-12-local-minima-global-minima-ease-s-gradient-67176938.png)
+
 With an understanding of the gradient, we can understand the principle of gradient descent. Above we need to minimize this error, that is, we need to find the minimum point of this error, then we can find this minimum point along the opposite direction of the gradient.
 
 We can look at an intuitive explanation. For example, we are somewhere on a mountain. Because we don't know how to go down the mountain, we decided to take one step, that is, when we go to a position, solve the gradient of the current position, along the negative direction of the gradient. It is the current steepest position to go down one step, then continue to solve the current position gradient, and take a step along the steepest and most easy downhill position. This step by step, go all the way to think that we have reached the foot of the mountain. Of course, if we go on like this, we may not be able to go to the foot of the mountain, but to the low point of a certain local peak.
