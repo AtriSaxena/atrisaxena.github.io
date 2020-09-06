@@ -12,9 +12,3 @@ I'm a big fan of Automation, Machine Learning and Computer Vision. I'm doing som
 
 
 Hope this blog help with your learning. And don't hesitate to drop me a line. I'll reply as soon as I can, promise!
-
-<object data="https://github.com/AtriSaxena/atrisaxena.github.io/raw/master/assets/Resume/Atri_Saxena_Resume.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://github.com/AtriSaxena/atrisaxena.github.io/raw/master/assets/Resume/Atri_Saxena_Resume.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/AtriSaxena/atrisaxena.github.io/raw/master/assets/Resume/Atri_Saxena_Resume.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
