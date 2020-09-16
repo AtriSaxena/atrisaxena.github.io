@@ -2,6 +2,7 @@
 permalink: /test/
 title: "Test"
 excerpt: "All about me."
+toc: True
 ---
 <h1>The onclick Event</h1>
 
