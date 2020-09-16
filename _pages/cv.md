@@ -1,6 +1,5 @@
 ---
 permalink: /cv/
-layout: article
 title: "CV"
 share: false
 toc: true
