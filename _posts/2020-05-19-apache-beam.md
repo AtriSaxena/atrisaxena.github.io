@@ -7,6 +7,7 @@ tags:
   - Machine Learning
   - Data preprocessing
   - Pipeline
+toc: true
 ---
 
 <p align="center">
