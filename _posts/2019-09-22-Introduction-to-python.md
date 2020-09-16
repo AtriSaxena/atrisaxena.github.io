@@ -2,7 +2,7 @@
 title: "Introduction to Python"
 categories:
   - Tutorial
-  classes: wide
+classes: wide
 tags:
   - machine-learning
   - python
