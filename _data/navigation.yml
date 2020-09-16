@@ -5,7 +5,7 @@ main:
  # - title: "Projects"
 #    url: https://atrisaxena.github.io/portfolio
 
-  - Resume: "CV"
+  - title: "CV"
     url: /cv/
     
   - title: "About"
