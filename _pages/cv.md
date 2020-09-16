@@ -2,8 +2,6 @@
 layout: article
 permalink: /cv/
 title: "CV"
-excerpt:
-tags : []
 share: false
 toc: true
 ---
