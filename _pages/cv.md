@@ -2,8 +2,9 @@
 permalink: /cv/
 title: "CV"
 share: false
-toc: true
 ---
+
+{% include toc.html %}
 
 ## Education
 * 2019 M.Tech in Information Security, NIT Jalandhar
