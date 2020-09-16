@@ -4,6 +4,9 @@ main:
     
  # - title: "Projects"
 #    url: https://atrisaxena.github.io/portfolio
+
+  - Resume: "Resume"
+    url: /resume/
     
   - title: "About"
     url: /about/
