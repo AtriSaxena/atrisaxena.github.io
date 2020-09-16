@@ -2,8 +2,9 @@
 permalink: /cv/
 title: "CV"
 share: false
-toc: true
 ---
+
+{% includes toc.html %}
 
 
 ## Education
