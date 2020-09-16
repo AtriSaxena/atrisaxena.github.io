@@ -2,6 +2,7 @@
 title: "Python Print functions & Strings"
 categories:
   - Tutorial
+classes: wide
 tags:
   - machine-learning
   - python
