@@ -3,6 +3,7 @@ layout: single
 permalink: /terms/
 title: "Terms and Privacy Policy"
 modified: 2016-10-01
+classes: wide
 ---
 
 1. **Acceptance The Use Of [atrisaxena's Machine Learning Page](https://atrisaxena.github.io/) Terms and Conditions**   
