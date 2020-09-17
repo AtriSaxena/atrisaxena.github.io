@@ -2,6 +2,7 @@
 title: "File Handling in Python"
 categories:
   - Tutorial
+classes: wide
 tags:
   - machine-learning
   - python
