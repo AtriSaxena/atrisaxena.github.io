@@ -2,6 +2,7 @@
 title: "Python List & Loops"
 categories:
   - Tutorial
+classes: wide
 tags:
   - machine-learning
   - python
