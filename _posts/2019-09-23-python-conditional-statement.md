@@ -1,6 +1,7 @@
 title: "Python Conditional Statement"
 categories:
   - Tutorial
+classes: wide
 tags:
   - machine-learning
   - python
