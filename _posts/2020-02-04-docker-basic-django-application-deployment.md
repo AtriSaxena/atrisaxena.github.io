@@ -2,6 +2,7 @@
 title: "A beginner's guide to Docker and Deploying Django Application on Docker"
 categories:
   - Projects
+classes: wide
 tags:
   - docker
   - django
