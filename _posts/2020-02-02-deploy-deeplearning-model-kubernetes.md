@@ -7,6 +7,7 @@ tags:
   - deep-learning
   - Kubernetes
   - google-cloud
+toc: true
 ---
 
 ![](https://i.imgur.com/CHBDWUF.png)
