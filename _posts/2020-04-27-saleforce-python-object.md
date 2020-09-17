@@ -2,6 +2,7 @@
 title: "Use Salesforce python library to Edit, Update, View Salesforce Object"
 categories:
   - Tutorial
+classes: wide
 tags:
   - Salesforce
   - Python 
