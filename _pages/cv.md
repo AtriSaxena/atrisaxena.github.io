@@ -54,7 +54,12 @@ Collision Avoidance System Using Deep Learning” First International Conference
 
 ---
 
-### 📫 How to reach me
+## Languages 
+
+  - English 
+  - Hindi 
+
+## 📫 How to reach me
 - [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/atrisaxena/)](https://www.linkedin.com/in/atrisaxena/)
 [![Gmail Badge](https://img.shields.io/badge/-Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:atrisaxena2@gmail.com)](mailto:atrisaxena2@gmail.com)
 [![Tech Blog Badge](http://img.shields.io/badge/-Tech%20blog-black?style=flat-square&logo=github&link=https://atrisaxena.github.io/)](https://atrisaxena.github.io/) 
