@@ -2,6 +2,7 @@
 title: "Python Text APP using Twilio API"
 categories:
   - Projects
+classes: wide
 tags:
   - projects
   - python
