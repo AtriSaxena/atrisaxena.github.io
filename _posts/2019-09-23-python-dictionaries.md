@@ -2,6 +2,7 @@
 title: "Python Dictionaries"
 categories:
   - Tutorial
+classes: wide
 tags:
   - machine-learning
   - python
