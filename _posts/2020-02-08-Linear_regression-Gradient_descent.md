@@ -2,6 +2,7 @@
 title: "A introduction to Linear Regression and Gradient Descent in pytorch."
 categories:
   - Tutorial
+classes: wide
 tags:
   - machine-learning
   - gradient-descent
