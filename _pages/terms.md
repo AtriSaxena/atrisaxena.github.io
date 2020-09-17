@@ -52,6 +52,6 @@ If any of these Terms and Conditions should be determined to be invalid, illegal
 If you breach these Conditions of Use and we take no action, we will still be entitled to use our rights and remedies in any other situation where you breach these Conditions of Use.
 
 12. **GOVERNING LAW**  
-These Terms and Conditions shall be governed by and construed in accordance with the law of Japan and you hereby submit to the exclusive jurisdiction of the Japan courts.
+These Terms and Conditions shall be governed by and construed in accordance with the law of India and you hereby submit to the exclusive jurisdiction of the Indian courts.
 
 For any further information please email [atrisaxena's Machine Learning Page](mailto:atrisaxena2@gmail.com) Team
