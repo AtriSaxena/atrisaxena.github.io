@@ -50,7 +50,7 @@ I am Atri Saxena.
 ## 🎓 Research Paper: 
 
   - :books: Atri Saxena, DK Gupta and Samayveer Singh “An Animal Detection and
-Collision Avoidance System Using Deep Learning” First International Conference on Advanced Communication & Computational Technology (ICACCT 2019), Springer LNCS (Accepted)
+Collision Avoidance System Using Deep Learning” First International Conference on Advanced Communication & Computational Technology (ICACCT 2019), Springer LNCS (https://doi.org/10.1007/978-981-15-5341-7_81)
 
 ---
 
